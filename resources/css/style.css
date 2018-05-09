@@ -7,6 +7,10 @@ html{
   font-family: 'Faster One', cursive;
 }
 
+h2{
+  color: #fddd0ceb;
+}
+
 /*Navigation bar styles*/
 
 .navbar-default .navbar-brand{
@@ -29,17 +33,22 @@ html{
 }
 
 .jumbotron-head{
-  background: url("../images/book-laptop.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 29.88rem;
+  position: relative;
+  overflow: hidden;
+}
 
+.jumbotron-head img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.89;
 }
 
 .main-title{
   position: relative;
-  bottom:50px;
+  margin-bottom:50px;
 }
 
 .jumbotron-head h1{
@@ -53,15 +62,18 @@ html{
 
 .menu{
   position: relative;
-  bottom: 50px;
+  margin-bottom: 50px;
   margin-top: 6.5rem;
-  color: #1d95cb;
-  text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
+  color: #a6ff44fa;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
+.menu p{
+  font-family: 'Lato', sans-serif;
 }
 
 .menu-middle{
-  top:75px;
+  margin-top:75px;
 }
 
 .option {
@@ -69,6 +81,6 @@ html{
 }
 
 .option:hover{
-  color:gold;
+  color:#fddd0ceb;
   transform: scale(1.5);
 }
