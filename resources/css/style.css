@@ -3,12 +3,22 @@ html{
   font-family: 'Lato', sans-serif;
 }
 
+body{
+  background-color: #eaebf0;
+  font-family: 'Lato', sans-serif;
+}
+
 .fancy-title{
   font-family: 'Faster One', cursive;
 }
 
 h2{
   color: #fddd0ceb;
+}
+
+a:hover{
+  color: inherit;
+  text-decoration: none;
 }
 
 /*Navigation bar styles*/
@@ -68,8 +78,18 @@ h2{
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+@media only screen and(min-width:992px){
+  .menu{
+    width: 50%;
+  }
+}
+
 .menu p{
   font-family: 'Lato', sans-serif;
+}
+
+a{
+  color: inherit;
 }
 
 .menu-middle{
@@ -83,4 +103,36 @@ h2{
 .option:hover{
   color:#fddd0ceb;
   transform: scale(1.5);
+}
+
+/* About me styles */
+
+.about{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about h1{
+  margin-bottom: 25px;
+}
+
+.desc-about{
+  display: inline-block;
+  max-width: 50%;
+  font-size: 18px;
+}
+
+/* skills section */
+
+.skills{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.skills h3{
+  padding-bottom: 30px;
+}
+
+.skills .row{
+  margin-bottom: 25px;
 }
