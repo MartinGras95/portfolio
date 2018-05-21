@@ -4,7 +4,7 @@ html{
 }
 
 body{
-  background-color: #eaebf0;
+  background-color: #333333;
   font-family: 'Lato', sans-serif;
 }
 
@@ -55,6 +55,7 @@ a:hover{
   height: auto;
   opacity: 0.89;
 }
+
 
 .main-title{
   position: relative;
@@ -109,7 +110,13 @@ a{
 
 .about{
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  background: url("https://images.pexels.com/photos/942872/pexels-photo-942872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 25px;
 }
 
 .about h1{
@@ -127,12 +134,13 @@ a{
 .skills{
   text-align: center;
   padding-bottom: 50px;
+  width: 95%;
+
 }
 
 .skills h3{
-  padding-bottom: 30px;
 }
 
 .skills .row{
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
