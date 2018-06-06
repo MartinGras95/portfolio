@@ -4,7 +4,7 @@ html{
 }
 
 body{
-  background-color: #333333;
+  background-color: #454546;
   font-family: 'Lato', sans-serif;
 }
 
@@ -19,6 +19,10 @@ h2{
 a:hover{
   color: inherit;
   text-decoration: none;
+}
+
+.title-row{
+  text-align: center;
 }
 
 /*Navigation bar styles*/
@@ -110,12 +114,14 @@ a{
 
 .about{
   text-align: center;
-  margin-bottom: 30px;
-  background: url("https://images.pexels.com/photos/997719/pexels-photo-997719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  margin-bottom: 20px;
+  background: url("../images/about.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
+  border-radius: 15px;
+  border: 3px solid black;
 
 }
 
@@ -144,4 +150,52 @@ a{
 
 .skills .row{
   margin-bottom: 30px;
+}
+
+.skills i{
+  color: #a6ff44fa;
+}
+
+/* Project Section */
+
+.projects-title{
+  text-decoration: overline;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: white;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.project{
+  margin-bottom: 30px;
+}
+
+.top-project-row{
+  margin-bottom: 30px;
+}
+
+.image-container{
+  overflow: hidden;
+  opacity: 0.92;
+}
+
+.image-container:hover{
+  opacity: 1;
+}
+
+.image-container img{
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.image-container img:hover{
+  transform: scale(1.2);
+}
+
+.project-desc{
+  color: white;
+  position: relative;
+  z-index: 100;
+  width: 80%;
+
 }
