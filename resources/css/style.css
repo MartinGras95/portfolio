@@ -187,6 +187,11 @@ a:hover{
   position: relative;
   top: -100px;
   color: white;
+  padding-bottom: 100px;
+}
+
+.bottom-project{
+  margin-bottom: 100px;
 }
 
 .project{
@@ -223,5 +228,37 @@ a:hover{
 
 .contact{
   position: relative;
-  top:-100px;
+  top:-200px;
+  border: 1px solid #e1e1e1;
+  z-index: 101;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.contact-option{
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+.contact-option i{
+  color: #a94242;
+}
+
+.contact-desc{
+  visibility: hidden;
+  transition: all 0.35s;
+}
+
+.contact-button{
+  transition: all 0.35s;
+}
+
+.contact-button:hover{
+  transform: scale(1.2);
+}
+
+.contact-button:hover > .contact-desc{
+  visibility: visible;
 }
