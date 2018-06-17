@@ -88,6 +88,40 @@ a:hover{
   margin-bottom:50px;
 }
 
+@media only screen and (max-width: 991px){
+  .main-title{
+    margin-bottom: 0;
+    top: 60px;
+  }
+  .main-title h1{
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 669px){
+  .main-title h1{
+    font-size: 62px;
+  }
+}
+
+  @media only screen and (max-width: 506px){
+    .main-title{
+      top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 418px){
+    .main-title{
+      top: 0;
+    }
+    .main-title h1{
+      font-size: 31px;
+    }
+    .main-title h2{
+      font-size: 26px;
+    }
+  }
+
 .jumbotron-head h1{
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #a94242;
@@ -104,11 +138,24 @@ a:hover{
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-@media only screen and(min-width:992px){
+@media only screen and (max-width:1130px){
   .menu{
-    width: 50%;
+    top:-55px;
   }
 }
+
+@media only screen and (max-width: 1024px){
+  .option{
+    transform: scale(0.7);
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .option{
+    display: none;
+  }
+}
+
 
 .menu p{
   color: #333;
@@ -120,6 +167,7 @@ a:hover{
 
 .option {
   transition: all 0.5s;
+
 }
 
 .option:hover{
@@ -140,6 +188,18 @@ a:hover{
   color: white;
   position: relative;
   top: -25px;
+}
+
+@media only screen and (max-width: 1024px){
+  .about{
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .about{
+    padding-bottom: 200px;
+  }
 }
 
 .about h1{
@@ -167,6 +227,25 @@ a:hover{
   border: 1px solid #e1e1e1;
 }
 
+@media only screen and (max-width: 991px){
+  .skill{
+    padding-bottom: 35px;
+  }
+
+  .skills .row{
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .skills h1{
+    padding-bottom: 65px;
+  }
+  .skills{
+    padding-bottom: 50px;
+  }
+}
+
 .skills p{
   font-weight: bold;
   color: #333;
@@ -188,6 +267,14 @@ a:hover{
   top: -100px;
   color: white;
   padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+.project-row{
+  margin-bottom: 30px;
 }
 
 .bottom-project{
@@ -222,6 +309,7 @@ a:hover{
   z-index: 100;
   width: 80%;
   font-size: 18px;
+  padding-top: 15px;
 }
 
 /* Contact Section */
