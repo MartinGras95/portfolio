@@ -246,6 +246,16 @@ a:hover{
   font-size: 24px;
 }
 
+@media only screen and (max-width:480px){
+  .desc-about{
+    max-width: 70%;
+    font-size: 16px;
+  }
+  .desc-about h1{
+    font-size: 36px;
+  }
+}
+
 /* skills section */
 
 .skills{
