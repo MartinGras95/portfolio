@@ -87,6 +87,7 @@ a:hover{
   width: 100%;
   height: auto;
   opacity: 0.89;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=89)";
 }
 
 .main-title{
@@ -307,9 +308,6 @@ a:hover{
 
 }
 
-
-
-
 /* Project Section */
 
 .projects{
@@ -344,10 +342,12 @@ a:hover{
 .image-container{
   overflow: hidden;
   opacity: 0.92;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=92)";
 }
 
 .image-container:hover{
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .image-container img{
